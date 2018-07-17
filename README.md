@@ -23,8 +23,8 @@
 
 This repo holds all of our daily python exercises!
 
-### master branch build: [![Build Status](https://travis-ci.com/bmazey/python_exercises.svg?branch=master)](https://travis-ci.com/bmazey/python_exercises)
+### master [![Build Status](https://travis-ci.com/bmazey/python_exercises.svg?branch=master)](https://travis-ci.com/bmazey/python_exercises)
 
-### development branch build: [![Build Status](https://travis-ci.com/bmazey/python_exercises.svg?branch=development)](https://travis-ci.com/bmazey/python_exercises)
+### development [![Build Status](https://travis-ci.com/bmazey/python_exercises.svg?branch=development)](https://travis-ci.com/bmazey/python_exercises)
 
 Opening development branch ... (adjusting Travis-CI)
