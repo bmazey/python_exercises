@@ -3,3 +3,7 @@ python:
   - "3.6"
 script:
   - pytest challenges/interview/test
+branches:
+  only:
+    - master
+    - development
