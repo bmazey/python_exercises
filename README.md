@@ -21,3 +21,5 @@
 
 # python exercises [![Build Status](https://travis-ci.com/bmazey/python_exercises.svg?token=qj78GubcUUGyp7Atyp5E&branch=master)](https://travis-ci.com/bmazey/python_exercises)
 This repo holds all of our daily python exercises!
+
+Opening development branch ...
