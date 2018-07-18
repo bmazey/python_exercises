@@ -8,4 +8,11 @@ class FizzBuzz(object):
         # TODO - implement this method!
 
         string = ''
+        if i % 15 == 0:
+            string = "fizzbuzz"
+        elif i % 5 == 0:
+            string = "buzz"
+        elif i % 3 == 0:
+            string = "fizz"
+
         return string
