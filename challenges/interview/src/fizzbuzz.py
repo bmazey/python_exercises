@@ -5,6 +5,7 @@ class FizzBuzz(object):
     @staticmethod
     def fizzbuzz(i):
         # TODO - implement this method!
+        # Hectors first comment
 
         string = ''
         return string
