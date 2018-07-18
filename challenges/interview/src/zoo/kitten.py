@@ -8,7 +8,7 @@ class Kitten(Mammal):
     def __init__(self, name):
         super().__init__(name)
         self.size = 1
-        self.leg = 4
+        self.legs = 4
         self.color = "orange"
 
     # all mammals have specialized teeth ... they eat differently!

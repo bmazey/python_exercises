@@ -8,7 +8,7 @@ class Panther(Mammal):
     def __init__(self, name):
         super().__init__(name)
         self.size = 5
-        self.leg = 4
+        self.legs = 4
         self.color = "black"
 
     # all mammals have specialized teeth ... they eat differently!

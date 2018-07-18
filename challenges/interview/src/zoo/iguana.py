@@ -8,5 +8,14 @@ class Iguana(Reptile):
     def __init__(self, name):
         super().__init__(name)
         self.size = 3
-        self.leg = 4
+        self.legs = 4
         self.color = "green"
+
+    def get_size(self):
+        return self.size
+
+    def get_legs(self):
+        return self.legs
+
+    def get_color(self):
+        return self.color
