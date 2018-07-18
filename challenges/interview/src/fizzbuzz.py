@@ -5,6 +5,11 @@ class FizzBuzz(object):
     @staticmethod
     def fizzbuzz(i):
         # TODO - implement this method!
-
+        if i%3 == 0 and i%5 == 0: # Testing both multiples
+            return "fizzbuzz"
+        if i%3 == 0: # Testing only 3
+            return "fizz"
+        if i%5 == 0: # Testing only 5
+            return "buzz"
         string = ''
         return string
