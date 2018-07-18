@@ -1,7 +1,7 @@
 class FizzBuzz(object):
     """this is our FizzBuzz class"""
 
-    # test
+    # test comment
     @staticmethod
     def fizzbuzz(i):
         # TODO - implement this method!
