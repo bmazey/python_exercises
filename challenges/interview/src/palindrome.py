@@ -3,6 +3,6 @@ class Palindrome(object):
 
     @staticmethod
     def is_palindrome(s):
-        # TODO - implement this method!
 
-        return True
+        return s == s[::-1]
+
