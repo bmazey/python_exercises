@@ -1,7 +1,7 @@
 def main():
 
     # a string is an array of characters
-    string = "a rose by any other name"
+    string = "double, double toil and trouble"
     print(string)
 
     # an integer is on the number line
@@ -16,7 +16,16 @@ def main():
     new_money = int(money)
     print("new money: " + str(new_money))
 
-    # TODO - cast dalmatians to float ...
+    # using type function
+    print(type(dalmatians))
+
+    # casting up (safe)
+    dalmatians = float(dalmatians)
+    print(dalmatians)
+
+    print(type(dalmatians))
+
+    # let's do booleans?
 
 
 if __name__ == '__main__':
