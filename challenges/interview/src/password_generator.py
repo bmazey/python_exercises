@@ -6,7 +6,6 @@ class PasswordGenerator(object):
 
     @staticmethod
     def generate_password():
-        # TODO - implement this method!
 
         password = ''
         return password
