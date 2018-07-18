@@ -7,3 +7,4 @@ def test_fizzbuzz():
     assert FizzBuzz.fizzbuzz(i=next(prime) * 3) == 'fizz'
     assert FizzBuzz.fizzbuzz(i=next(prime) * 5) == 'buzz'
     assert FizzBuzz.fizzbuzz(i=next(prime) * 15) == 'fizzbuzz'
+
