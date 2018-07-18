@@ -1,7 +1,7 @@
 def main():
 
     # a string is an array of characters
-    string = "a rose by any other name"
+    string = "double, double toil and trouble"
     print(string)
 
     # an integer is on the number line
