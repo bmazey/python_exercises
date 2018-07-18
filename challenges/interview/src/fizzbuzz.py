@@ -7,6 +7,6 @@ class FizzBuzz(object):
         # TODO - implement this method!
 
 
-        # test method!
+        # test method! test
         string = ''
         return string
