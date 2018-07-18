@@ -6,6 +6,15 @@ class FizzBuzz(object):
     @staticmethod
     def fizzbuzz(i):
         # TODO - implement this method!
+        if i % 15 == 0:
+            string = 'fizzbuzz'
+        elif i % 5 == 0:
+            string = 'buzz'
+        elif i % 3 == 0:
+            string = 'fizz'
+        else:
+            string = ''
 
-        string = ''
         return string
+
+
