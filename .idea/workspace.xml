@@ -1,79 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32bb7332-52c5-4124-b370-691b28ffae9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/password_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/animal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/iguana.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/kitten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/mammal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/panther.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/src/zoo/reptile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/test/test_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/test/test_fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/test/test_palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/test/test_password_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/interview/test/test_zoo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/market/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/rumors/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenges/rumors/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/algorithms/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/algorithms/src/rabin_karp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/algorithms/test/test_plagiarism.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/api/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/api/src/amazon_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/api/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/conditionals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/tuples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/src/verify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/fundamentals/test/test_verify_install.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/builder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/builder/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/builder/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/builder/car_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/builder/car_builder_director.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/direction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/door.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/enchanted_door.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/enchanted_maze_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/enchanted_room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/map_site.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/maze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/maze_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/maze_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/room.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/wall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/factory/wizard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/singleton/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/singleton/simple_singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/test/test_car_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/test/test_maze_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/patterns/test/test_simple_singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/src/family_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/src/grocery_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/src/movie_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/src/treasure_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/test/test_family_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/test/test_grocery_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/test/test_movie_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises/structures/test/test_treasure_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="32bb7332-52c5-4124-b370-691b28ffae9e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,10 +71,12 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
