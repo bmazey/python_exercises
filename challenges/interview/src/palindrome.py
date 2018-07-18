@@ -4,5 +4,11 @@ class Palindrome(object):
     @staticmethod
     def is_palindrome(s):
         # TODO - implement this method!
+        # creating a string that is s backwards
+        string = s[::-1]
 
-        return True
+        #testing to see if the string is equal to s
+        if(string == s):
+            return True
+        else:
+            return False
