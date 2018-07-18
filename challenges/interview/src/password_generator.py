@@ -8,5 +8,12 @@ class PasswordGenerator(object):
     def generate_password():
         # TODO - implement this method!
 
-        password = ''
+        x = random.randint(0, 9)
+        y = random.randint(0, 9)
+
+        password = 'abcde' + "12" + str(x) + str(y) + "*"
+
         return password
+
+
+
