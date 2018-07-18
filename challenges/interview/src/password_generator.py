@@ -9,4 +9,5 @@ class PasswordGenerator(object):
         # TODO - implement this method!
 
         password = ''
+
         return password
