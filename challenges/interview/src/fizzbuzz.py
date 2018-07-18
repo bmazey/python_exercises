@@ -4,6 +4,7 @@ class FizzBuzz(object):
     # test
     @staticmethod
     def fizzbuzz(i):
+        # my first comment
         # TODO - implement this method!
 
         string = ''
