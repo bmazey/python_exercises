@@ -6,5 +6,7 @@ class FizzBuzz(object):
     def fizzbuzz(i):
         # TODO - implement this method!
 
+
+        # test method!
         string = ''
         return string
