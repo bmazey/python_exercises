@@ -2,10 +2,6 @@
 
 def main():
 
-    quote = "know thy self, know thy enemy. A thousand battles, a thousand victories."
-    print(list(enumerate(quote)))
-    print(list(enumerate(quote.split(' '))))
-
     # tuples are immutable
     tuple1 = (1, 2, 3)
 
@@ -35,6 +31,10 @@ def main():
     # prints 'African or European?'
     print(dictionary.get('weight'))
 
+    # tuples with enumeration
+    quote = "know thy self, know thy enemy. A thousand battles, a thousand victories."
+    print(list(enumerate(quote)))
+    print(list(enumerate(quote.split(' '))))
 
 def append_to_sequence(sequence):
     sequence += (9, 9, 9)
