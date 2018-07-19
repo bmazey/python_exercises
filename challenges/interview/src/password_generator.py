@@ -1,5 +1,4 @@
 import random
-import string
 
 
 class PasswordGenerator(object):
@@ -11,15 +10,17 @@ class PasswordGenerator(object):
 
         #no lists needed
         symbols = '!@#$%^&*'
+        alpha = 'abcdefghijklmnopqrstuvwxyz'
         password = ''
 
         for i in range(0, 4):
-            password += random.choice(string.ascii_letters)
+            password += random.choice(alpha)
 
         for x in range(0, 3):
             password += str(random.randint(0, 9))
 
-        password += str(random.choice(symbols))
+        for j in range(0, 1):
+            password += random.choice(symbols)
 
         return password
 
