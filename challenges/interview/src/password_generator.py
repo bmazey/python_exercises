@@ -20,7 +20,7 @@ class PasswordGenerator(object):
             i += 1
 
         # randomizes a symbol and adds it to password
-        symbols = ['!', '@' , '#' , '$' , '%','^','&','*']
+        symbols = ['!', '@', '#', '$', '%', '^', '&', '*']
         password += symbols[random.randint(0, 7)]
 
         print(password)
