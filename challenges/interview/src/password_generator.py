@@ -18,7 +18,11 @@ class PasswordGenerator(object):
         for i in range(0,4):
             password += str(random.randint(0, 9))
             i += 1
-        # adds a symbol
-        password += "!"
+
+        # randomizes a symbol and adds it to password
+        symbols = ['!', '@' , '#' , '$' , '%','^','&','*']
+        password += symbols[random.randint(0, 7)]
+
+        print(password)
 
         return password
