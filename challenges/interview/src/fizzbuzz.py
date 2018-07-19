@@ -14,5 +14,3 @@ class FizzBuzz(object):
             return 'buzz'
         else:
             return 'nope'
-
-# test
