@@ -6,7 +6,19 @@ class PasswordGenerator(object):
 
     @staticmethod
     def generate_password():
-        # TODO - implement this method!
-
+        letters = 'abcdefghijklmnopqrstuvwxyz'
+        numbers = '1234567890'
+        symbols = '!@#$%^&*'
         password = ''
+
+        for i in range(5):
+            password = password + random.choice(letters)
+
+        for i in range(4):
+            password = password + random.choice(numbers)
+
+        for i in range(1):
+            password = password + random.choice(symbols)
+
+        # TODO - implement this method!
         return password
