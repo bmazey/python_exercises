@@ -8,18 +8,19 @@ class PasswordGenerator(object):
     def generate_password():
         # TODO - implement this method!
 
-        #no lists needed
         symbols = '!@#$%^&*'
         alpha = 'abcdefghijklmnopqrstuvwxyz'
+        numbers = '123456789'
         password = ''
 
-        for i in range(0, 4):
+        for i in range(5):
             password += random.choice(alpha)
 
-        for x in range(0, 3):
-            password += str(random.randint(0, 9))
+        for x in range(4):
+            password += random.choice(numbers)
 
-        password += random.choice(symbols)
+        for j in range(1):
+            password += random.choice(symbols)
 
         return password
 
