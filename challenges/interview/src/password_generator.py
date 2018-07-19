@@ -9,7 +9,7 @@ class PasswordGenerator(object):
     def generate_password():
         # TODO - implement this method!
 
-
+        #no lists needed
         symbols = '!@#$%^&*'
         password = ''
 
