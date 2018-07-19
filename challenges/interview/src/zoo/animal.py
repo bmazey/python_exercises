@@ -7,4 +7,4 @@ class Animal:
 
     # all Animals eat
     def eat(self):
-        return "nom ... nom ..."
+        return self.eat
