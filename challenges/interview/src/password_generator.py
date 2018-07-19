@@ -9,13 +9,16 @@ class PasswordGenerator(object):
     def generate_password():
         # TODO - implement this method!
         password = ''
-        i = 0
-        while i < 5:
+
+        # randomizes 5 alphabetical characters to add to password
+        for i in range(0, 5):
             password += random.choice(string.ascii_letters)
             i += 1
-        i = 0
-        while i < 4:
+        # randomizes 4 numbers to add to password
+        for i in range(0,4):
             password += str(random.randint(0, 9))
             i += 1
+        # adds a symbol
         password += "!"
+
         return password
