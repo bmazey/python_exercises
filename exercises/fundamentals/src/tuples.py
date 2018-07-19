@@ -2,7 +2,9 @@
 
 def main():
 
-    string
+    quote = "know thy self, know thy enemy. A thousand battles, a thousand victories."
+    print(list(enumerate(quote)))
+    print(list(enumerate(quote.split(' '))))
 
     # tuples are immutable
     tuple1 = (1, 2, 3)
