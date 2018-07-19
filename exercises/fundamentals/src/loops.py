@@ -2,10 +2,13 @@ def main():
 
     # classic range for loop ... inclusive, exclusive
     for index in range(1, 10):
+        # break
+        # continue
         print("index: " + str(index))
 
     # iterative loop
     sentence1 = "the quick brown fox jumps over the lazy dog"
+
     for character in sentence1:
         print('first loop: ' + character)
 

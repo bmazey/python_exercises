@@ -1,6 +1,9 @@
 
 
 def main():
+
+    string
+
     # tuples are immutable
     tuple1 = (1, 2, 3)
 
