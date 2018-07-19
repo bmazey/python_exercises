@@ -19,8 +19,7 @@ class PasswordGenerator(object):
         for x in range(0, 3):
             password += str(random.randint(0, 9))
 
-        for j in range(0, 1):
-            password += random.choice(symbols)
+        password += random.choice(symbols)
 
         return password
 
