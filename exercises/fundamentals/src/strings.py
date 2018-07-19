@@ -15,8 +15,8 @@ def main():
     # print("char: " + char)
 
     # what does this do?
-    mystery = quote[-1]
-    # print(mystery)
+    mystery = quote[::-1]
+    print(mystery)
 
     # how about this?
     mystery = quote[-4]
@@ -56,7 +56,7 @@ def main():
 
     # skipping characters with stride
     stride_quote = quote[2:-1:2]
-    # print("stride quote: " + stride_quote)
+    #print("stride quote: " + stride_quote)
 
     # get the length of the string ...
 
