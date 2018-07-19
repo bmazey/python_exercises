@@ -33,10 +33,10 @@ def main():
     second = ''
     for c in first:
         second += c
-    if first == second:
-        print("the strings are the same!")
+    if first is second:
+        print("the strings are the same! " + first + " / " + second)
     else:
-        print("the strings are NOT the same!")
+        print("the strings are NOT the same! " + first + " / " + second)
 
 
 if __name__ == '__main__':
