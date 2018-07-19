@@ -8,9 +8,6 @@ class Mammal(Animal):
         self.warm_blooded = True
         self.vertebrate = True
 
-
-
-    # examples ... using @property later
     def is_warm_blooded(self):
         return self.warm_blooded
 

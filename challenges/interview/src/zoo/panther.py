@@ -13,7 +13,7 @@ class Panther(Mammal):
         self.color = 'black'
 
     def call(self):
-        return 'ROAR'
+        return 'ROAR!'
 
     def is_warm_blooded(self):
         return self.warm_blooded

@@ -12,7 +12,7 @@ class Kitten(Mammal):
         self.color = 'orange'
 
     def call(self):
-        return  'meow ... meow ...'
+        return 'meow ... meow ...'
 
     def is_warm_blooded(self):
         return self.warm_blooded
