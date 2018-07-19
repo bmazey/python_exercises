@@ -36,6 +36,7 @@ def main():
     print(list(enumerate(quote)))
     print(list(enumerate(quote.split(' '))))
 
+
 def append_to_sequence(sequence):
     sequence += (9, 9, 9)
     return sequence

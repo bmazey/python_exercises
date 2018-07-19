@@ -28,6 +28,16 @@ def main():
 
     # let's write a method to sum an array!
 
+    # strings revisited ...
+    first = 'cool'
+    second = ''
+    for c in first:
+        second += c
+    if first == second:
+        print("the strings are the same!")
+    else:
+        print("the strings are NOT the same!")
+
 
 if __name__ == '__main__':
     main()

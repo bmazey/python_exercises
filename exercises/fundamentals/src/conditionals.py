@@ -1,5 +1,5 @@
 def main():
-    print("This only executes when %s is executed rather than imported" % __file__)
+    # print("This only executes when %s is executed rather than imported" % __file__)
 
     is_sunny = True
     is_not_sunny = False
@@ -7,30 +7,37 @@ def main():
     not_wearing_sunscreen = False
 
     if is_sunny and wearing_sunscreen:
-        print("This is true!")
+        print("will we see this?")
 
     if is_sunny or wearing_sunscreen:
-        print("This is also true!")
+        # print("how about this?")
+        return
 
     if is_sunny and not_wearing_sunscreen:
-        print("Don't think we'll see this ...")
+        # print("looking hot out there ...")
+        return
 
-    if (is_not_sunny or not_wearing_sunscreen) or (True and True):
-        print("We won't see this!")
+    if is_not_sunny or not_wearing_sunscreen:
+        # print("rain, rain go away ...")
+        return
 
     if not is_sunny or not wearing_sunscreen:
-        print("We won't see this either!")
+        # print("We won't see this either!")
+        return
 
     # ... new examples: let's order food!
     pizza = False
     burgers = True
 
     if pizza:
-        print("let's order pizza!")
+        # print("let's order pizza!")
+        return
     elif burgers:
-        print("let's order burgers!")
+        # print("let's order burgers!")
+        return
     else:
-        print("actually ... i'm not hungry")
+        # print("actually ... i'm not hungry")
+        return
 
 
 if __name__ == '__main__':
