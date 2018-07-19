@@ -15,13 +15,22 @@ def main():
     if is_sunny and not_wearing_sunscreen:
         print("Don't think we'll see this ...")
 
-    if is_not_sunny or not_wearing_sunscreen:
-        print("We won't see this either!")
+    if (is_not_sunny or not_wearing_sunscreen) or (True and True):
+        print("We won't see this!")
 
     if not is_sunny or not wearing_sunscreen:
         print("We won't see this either!")
 
-    # TODO - make more examples ...
+    # ... new examples: let's order food!
+    pizza = False
+    burgers = True
+
+    if pizza:
+        print("let's order pizza!")
+    elif burgers:
+        print("let's order burgers!")
+    else:
+        print("actually ... i'm not hungry")
 
 
 if __name__ == '__main__':
