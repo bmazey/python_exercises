@@ -12,6 +12,7 @@ def main():
 
     for dog in (spot, perdita, meatball, jacques):
         print(dog.bark())
+        print(dog.name)
 
     print(FrenchBulldog.walk())
 
