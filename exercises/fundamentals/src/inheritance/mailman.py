@@ -13,6 +13,14 @@ def main():
     for dog in (spot, perdita, meatball, jacques):
         print(dog.bark())
 
+    print(FrenchBulldog.walk())
+
+    # property method!
+    jacques.collar = 'yellow'
+    print("jacques collar: " + jacques.collar)
+    # everything is an object!!
+    print(dir(2))
+
 
 if __name__ == '__main__':
     main()
