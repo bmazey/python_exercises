@@ -6,13 +6,8 @@ class PasswordGenerator(object):
 
     @staticmethod
     def generate_password():
-        password = ''
-        symbols = '!@#$%^&*' # defining symbols
-        for i in range(10):
-            if i<5: # random lowercase letter
-                password += string.ascii_lowercase[random.randint(0,25)]
-            elif i>4 and i<9: # random number
-                password += str(random.randint(0,9))
-            elif i>=9: # random symbol
-                password += symbols[random.randint(0,len(symbols)-1)]
+        password = ''.join([random.choice(string.ascii_lowercase)  for _ in range(5)])
+        password += ''.join([random.choice(string.digits) for _ in range(4)])
+        password += random.choice('!@#$%^&*')
         return password
+

@@ -3,4 +3,4 @@ class Palindrome(object):
 
     @staticmethod
     def is_palindrome(s):
-        return s == s[::-1] # reverse string using slicing
+        return s == s[::-1]
