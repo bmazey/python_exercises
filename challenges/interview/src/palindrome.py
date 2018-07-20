@@ -13,3 +13,4 @@ class Palindrome(object):
             return True
         else:
             return False
+
