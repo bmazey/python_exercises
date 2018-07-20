@@ -7,6 +7,7 @@ class Mammal(Animal):
         super().__init__(name)
         self.warm_blooded = True
         self.vertebrate = True
+        self.size()
 
     # examples ... using @property later
     def is_warm_blooded(self):
