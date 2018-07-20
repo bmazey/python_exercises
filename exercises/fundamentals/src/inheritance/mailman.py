@@ -15,9 +15,13 @@ def main():
 
     print(FrenchBulldog.walk())
 
+    # name clashing! Python methods are simply variables that can be invoked!
+    # print(meatball.size())
+
     # property method!
     jacques.collar = 'yellow'
     print("jacques collar: " + jacques.collar)
+
     # everything is an object!!
     print(dir(2))
 
