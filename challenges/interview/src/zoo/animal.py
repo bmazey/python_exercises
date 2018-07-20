@@ -5,6 +5,7 @@ class Animal:
     def __init__(self, name):
         self.name = name
 
+
     # all Animals eat
     def eat(self):
         return "nom ... nom ..."
