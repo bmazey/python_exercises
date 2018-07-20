@@ -10,4 +10,4 @@ class Dog:
 
     # all dogs bark
     def bark(self):
-        return "bark! ... bark! ... : " + str(self.name)
+        return "bark! ... bark! ... : " + self.name

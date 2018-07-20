@@ -19,10 +19,11 @@ class FrenchBulldog(Bulldog):
 
     @collar.setter
     def collar(self, value):
-        # if value == 'yellow':
-            # print("french bulldogs won't wear yellow collars!")
-            # self._collar = 'blue'
-        self._collar = value
+        if value == 'yellow':
+            print("french bulldogs won't wear yellow collars!")
+            self._collar = 'blue'
+        else:
+            self._collar = value
 
     @collar.deleter
     def collar(self):
