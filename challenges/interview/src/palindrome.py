@@ -4,5 +4,10 @@ class Palindrome(object):
     @staticmethod
     def is_palindrome(s):
         # TODO - implement this method!
+        s = str(s)
+        a = s[::-1]
+        if a != s:
+            return False
+        else:
+            return True
 
-        return True

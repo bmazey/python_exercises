@@ -13,3 +13,4 @@ def test_is_not_palindrome():
     assert not Palindrome.is_palindrome(s='milkshake')
     assert not Palindrome.is_palindrome(s='stingray')
     assert not Palindrome.is_palindrome(s='psychic')
+
