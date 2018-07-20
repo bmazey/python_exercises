@@ -9,35 +9,34 @@ def main():
     if is_sunny and wearing_sunscreen:
         print("will we see this?")
 
-    if is_sunny or wearing_sunscreen:
-        # print("how about this?")
-        return
+    if is_sunny or not_wearing_sunscreen:
+        print("how about this?")
 
     if is_sunny and not_wearing_sunscreen:
-        # print("looking hot out there ...")
-        return
+        print("looking hot out there ...")
+        # return
 
     if is_not_sunny or not_wearing_sunscreen:
-        # print("rain, rain go away ...")
-        return
+        print("rain, rain go away ...")
+        # return
 
-    if not is_sunny or not wearing_sunscreen:
-        # print("We won't see this either!")
-        return
+    if not (is_sunny or not wearing_sunscreen):
+        print("We won't see this either test!")
+        # return
+
+    if (True and True) or (False and False):
+        print("success!")
 
     # ... new examples: let's order food!
     pizza = False
-    burgers = True
+    burgers = False
 
     if pizza:
-        # print("let's order pizza!")
-        return
+        print("let's order pizza!")
     elif burgers:
-        # print("let's order burgers!")
-        return
+        print("let's order burgers!")
     else:
-        # print("actually ... i'm not hungry")
-        return
+        print("actually ... i'm not hungry")
 
 
 if __name__ == '__main__':

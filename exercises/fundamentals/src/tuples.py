@@ -29,7 +29,7 @@ def main():
 
     # direct access on immutable
     # tuple1[0] = 4
-    # list1[0] = 4
+    list1[0] = 4
     # print("new list1 = " + str(list1))
 
     dictionary = {'hello': 'world', 'weight': 'African or European?'}
