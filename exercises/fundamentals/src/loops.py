@@ -16,6 +16,11 @@ def main():
 
     # backwards loops now? :)
 
+    sentence4 = "12345678910"
+    i = 0
+    while i < 11:
+        print('forth loop: ' + sentence4[i])
+        i += 1
 
 if __name__ == '__main__':
     main()

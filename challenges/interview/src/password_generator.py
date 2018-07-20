@@ -5,8 +5,7 @@ class PasswordGenerator(object):
     """this is a low quality PasswordGenerator"""
 
     @staticmethod
-    def generate_password():
+    def generate_password(s):
         # TODO - implement this method!
-
-        password = ''
-        return password
+        # random.i8 choice
+        sentence1 = ""
