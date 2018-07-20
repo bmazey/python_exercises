@@ -11,6 +11,7 @@ class PasswordGenerator(object):
         numbers = '1234567890'
         misc = '!@#$%^&*'
         password = ''
+        # creates a password using random positions in the strings
         password = random.choice(letters) + random.choice(letters) + random.choice(letters) + random.choice(letters)\
                     + random.choice(letters) + random.choice(numbers) + random.choice(numbers) + random.choice(numbers)\
                     + random.choice(numbers) + random.choice(misc)
