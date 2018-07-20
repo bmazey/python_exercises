@@ -30,6 +30,17 @@ def main():
     # prints 'African or European?'
     print(dictionary.get('weight'))
 
+    List1 = ['Math', 'Food']
+    List1.insert(1,3.2)
+    print(List1)
+
+    List2 = ['Hungry', 'Yum']
+    List1.extend(List2)
+    print(List1)
+
+    List3 = [1.0,1,2,3,5,8,13,21,34,55,89]
+    print(sum(List3))
+
 
 def append_to_sequence(sequence):
     sequence += (9, 9, 9)

@@ -23,6 +23,5 @@ def main():
 
     # TODO - make more examples ...
 
-
 if __name__ == '__main__':
     main()

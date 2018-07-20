@@ -4,7 +4,10 @@ class FizzBuzz(object):
     # test
     @staticmethod
     def fizzbuzz(i):
-        # TODO - implement this method!
-
-        string = ''
-        return string
+        if (i%3 == 0):
+            it = 'fizz'
+        if (i%5 == 0):
+            it = 'buzz'
+        if (i%15 ==0):
+            it ='fizzbuzz'
+        return it
