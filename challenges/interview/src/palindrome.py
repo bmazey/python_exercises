@@ -3,6 +3,14 @@ class Palindrome(object):
 
     @staticmethod
     def is_palindrome(s):
-        # TODO - implement this method!
 
-        return True
+        yes = ''
+
+        for i in s:
+            yes = i + yes
+
+        if s == yes:
+            return True
+        else:
+            return False
+
