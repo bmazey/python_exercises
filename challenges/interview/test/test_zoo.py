@@ -35,3 +35,4 @@ def test_iguana_properties():
     assert not iguana.is_warm_blooded()
     assert iguana.get_color() == 'green'.casefold()
     assert "crunch ... crunch ..." == iguana.eat().casefold()
+

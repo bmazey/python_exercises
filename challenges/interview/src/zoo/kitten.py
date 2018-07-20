@@ -12,3 +12,4 @@ class Kitten(Mammal):
 
     def call(self):
         return 'meow ... meow ...'
+

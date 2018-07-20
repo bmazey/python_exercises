@@ -12,3 +12,4 @@ class Panther(Mammal):
 
     def call(self):
         return 'ROAR!'
+
