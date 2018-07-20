@@ -7,10 +7,9 @@ class Palindrome(object):
         yes = ''
 
         for i in s:
-            yes = i + s
+            yes = i + yes
 
         if s == yes:
             return True
         else:
             return False
-
