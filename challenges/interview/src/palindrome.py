@@ -5,4 +5,7 @@ class Palindrome(object):
     def is_palindrome(s):
         # TODO - implement this method!
 
-        return True
+        if(s == s[::-1]): return True
+
+        else: return False
+
