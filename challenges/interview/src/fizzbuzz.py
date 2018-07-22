@@ -4,9 +4,20 @@ class FizzBuzz(object):
     # test
     @staticmethod
     def fizzbuzz(i):
+        # my first comment
         # TODO - implement this method!
 
 
         # test method! test
         string = ''
+        # if i is a multiple of 15, return fizzbuzz
+        if i % 15 == 0:
+            string = "fizzbuzz"
+        # if i is a multiple of 5, return buzz
+        elif i % 5 == 0:
+            string = "buzz"
+        # if i is a multiple of 3, return fizz
+        elif i % 3 == 0:
+            string = "fizz"
+
         return string
