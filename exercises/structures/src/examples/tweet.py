@@ -17,7 +17,7 @@ def generate_tweets():
         Tweet('2017-01-25 10:45:00', 'Doing code challenge 03, learning a lot', 5),
         Tweet('2017-01-25 12:45:00', 'Done with code challenge 03', 1),
     )
-    print(tweets)
+    # print(tweets)
     return tweets
 
 
@@ -28,7 +28,7 @@ def generate_more_tweets():
         Tweet('2017-01-25 10:46:00', 'Writing a blog post on a cool new module I discovered', 5),
         Tweet('2017-01-25 12:46:00', 'Learning some Python today, feeling great', 15),
     )
-    print(tweets)
+    # print(tweets)
     return tweets
 
 
@@ -60,7 +60,7 @@ def main():
 
     # I want to be able to merge tweets, just as we can do with lists: [1] + [2,3] = [1,2,3]
     # however this does not work out of the box
-    # print(bob + julian)
+    # bob + julian
 
     # let's re-instantiate as a new class which supports merging tweets
     bob = EnhancedTwitterUser(Handle('bbelderbos', shared_handle='pybites'), generate_tweets())
@@ -74,8 +74,8 @@ def main():
     # print(pybites)
 
     # our tweets are merged, glad to have Julian most liked tweet now ;)
-    # for tw in sorted(pybites, key=lambda x: x.likes, reverse=True):
-        # print(tw)
+    # for tweet in sorted(pybites, key=lambda x: x.likes, reverse=True):
+        # print(tweet)
 
     # but stranger is not part of pybites, so custom exception is raised (as implemented in __add__)
     # bob + stranger
@@ -91,5 +91,5 @@ def main():
     # print(pybites)
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
