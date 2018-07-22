@@ -8,5 +8,6 @@ class PasswordGenerator(object):
     def generate_password():
         # TODO - implement this method!
 
-        password = ''
+        # change one element in the password
+        password = 'ASDFG123' + str(random.randint(1 , 9)) + '%'
         return password
