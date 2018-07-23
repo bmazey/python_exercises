@@ -4,3 +4,20 @@ from challenges.interview.src.zoo.mammal import Mammal
 class Kitten(Mammal):
     """this is our Kitten class which 'extends' Mammal"""
     # TODO - implement this class!
+    def __init__(self, name):
+        super().__init__(self)
+        self.size = 1
+        self.legs = 4
+        self.color = 'orange'
+
+    def color(self):
+        return self.color
+
+    def call(self):
+        return "meow ... meow ..."
+
+    def is_vertebrate(self):
+        return self.vertebrate
+
+    def is_warm_blooded(self):
+        return self.is_warm_blooded

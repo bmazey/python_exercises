@@ -6,4 +6,5 @@ class Palindrome(object):
         # TODO - implement this method!
         if s[::-1] == s:
             return True
-        return False
+        else:
+            return False
