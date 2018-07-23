@@ -3,4 +3,3 @@ class Employee(object):
         self.employee_info = employee_info
         self._mail = mail
 
-    # TODO - finish this class using dunder methods!

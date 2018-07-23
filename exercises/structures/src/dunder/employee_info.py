@@ -3,4 +3,3 @@ class EmployeeInfo(object):
         self.name = name
         self.address = address
 
-# TODO - add dunder methods?
