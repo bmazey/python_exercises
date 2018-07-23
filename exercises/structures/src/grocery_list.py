@@ -16,7 +16,9 @@ class GroceryList:
 
     def populate_list(self):
         # TODO - implement this method!
+        # makes the list of groceries
         groceries = ["milk","eggs","seltzer","honey","seltzer"]
+        # loop to add the stuff in groceries to items list
         for stuff in groceries:
             self.items.append(stuff)
         return
