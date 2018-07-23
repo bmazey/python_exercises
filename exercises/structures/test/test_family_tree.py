@@ -1,4 +1,3 @@
-from anytree import Node, RenderTree
 from exercises.structures.src.family_tree import FamilyTree
 
 ft = FamilyTree()
