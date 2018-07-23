@@ -18,4 +18,18 @@ class FamilyTree:
 
         # TODO - implement this method!
 
-        return
+        # creating the root of the tree
+        self.lucille = anytree.Node("Lucille", parent=None)
+
+        # her children
+        self.george_oscar = anytree.Node("George Oscar", parent=self.lucille)
+        self.michael = anytree.Node("Michael", parent=self.lucille)
+        self.buster = anytree.Node("Buster", parent=self.lucille)
+        self.lindsay = anytree.Node("Lindsay", parent=self.lucille)
+
+        # lucille's children's children
+        self.george_michael = anytree.Node("George Michael", parent=self.michael)
+        self.maeby = anytree.Node("Maeby", parent=self.lindsay)
+
+
+
