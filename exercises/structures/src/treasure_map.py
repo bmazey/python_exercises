@@ -3,7 +3,6 @@ class TreasureMap:
         self.map = {}
 
     def populate_map(self):
-
-        # TODO - implement this method!
-        return
+        self.map = {'beach': 'sandy shore', 'coast': 'ocean reef', 'volcano': 'hot lava', 'x': 'marks the spot'}
+        return self.map
 
