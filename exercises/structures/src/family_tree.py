@@ -18,4 +18,12 @@ class FamilyTree:
 
         # TODO - implement this method!
 
-        return
+        self.lucille = anytree.Node("Lucille", parent=None)
+        self.george_oscar = anytree.Node("George Oscar", parent=self.lucille)
+        self.michael = anytree.Node("Michael", parent=self.lucille)
+        self.buster = anytree.Node("Buster", parent=self.lucille)
+        self.george_michael = anytree.Node("George Michael", parent=self.michael)
+        self.lindsay = anytree.Node("Lindsay", parent=self.lucille)
+        self.maeby = anytree.Node("Maeby", parent=self.lindsay)
+
+
