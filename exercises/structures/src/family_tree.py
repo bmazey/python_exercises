@@ -1,4 +1,5 @@
 import anytree
+from anytree import Node, RenderTree
 
 
 class FamilyTree:
@@ -16,6 +17,12 @@ class FamilyTree:
 
         # ex: child = Node('Child Name', parent = parent_node)
 
-        # TODO - implement this method!
+        lucille = Node("lucille")
+        george_oscar = Node("George Oscar", parent=lucille)
+        michael = Node("Michael", parent=lucille)
+        lindsay = Node("Lindsay", parent=lucille)
+        buster = Node("Buster", parent=lucille)
+        george_michael = Node("George Michael", parent=michael)
+        maeby = Node("Maeby", parent=lindsay)
 
         return
