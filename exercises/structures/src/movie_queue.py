@@ -6,3 +6,8 @@ class MovieQueue:
     def populate_movie_queue(self):
         """populates a new MovieQueue"""
         # TODO - implement this method!
+        people = ["Donatello", "Raphael", "Michelangelo", "Leonardo"]
+
+        for name in people:
+            self.queue.append(name)
+
