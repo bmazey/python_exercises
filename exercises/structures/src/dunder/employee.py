@@ -3,4 +3,7 @@ class Employee(object):
         self.employee_info = employee_info
         self._mail = mail
 
+    def __getitem__(self, item):
+        return self._mail[item]
+
     # TODO - finish this class using dunder methods!
