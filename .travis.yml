@@ -2,7 +2,8 @@ language: python
 python:
   - "3.6"
 script:
-  - pytest challenges/interview/test
+  - pytest challenges/market/test
+  - pytest exercises/structures/test
 branches:
   only:
     - master

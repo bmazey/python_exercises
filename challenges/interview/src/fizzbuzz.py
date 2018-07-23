@@ -8,6 +8,8 @@ class FizzBuzz(object):
     def fizzbuzz(i):
         # TODO - implement this method!
 
+
+        # test method! test
         string = ''
         if(i % 3 == 0):
             string += 'fizz'
