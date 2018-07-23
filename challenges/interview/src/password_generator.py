@@ -14,11 +14,11 @@ class PasswordGenerator(object):
         password = ''
 
         for x in range(5) :
-            password += alpha[random.randint(26)]
+            password += alpha[random.randint(0, 25)]
 
         for x in range(4) :
-            password += random.randint(10)
+            password += str(random.randint(0, 9))
 
-        password += sym[random.randint(8)]
+        password += sym[random.randint(0, 7)]
 
         return password
