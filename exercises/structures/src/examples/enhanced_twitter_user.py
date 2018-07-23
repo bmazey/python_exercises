@@ -9,7 +9,7 @@ class EnhancedTwitterUser(object):
 
     def __init__(self, handle, tweets):
         self.handle = handle
-        self.tweets = tweets  # making interfacce public as we need it in __add__
+        self.tweets = tweets  # making interface public as we need it in __add__
 
     def __len__(self):
         return len(self.tweets)
