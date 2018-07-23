@@ -18,5 +18,5 @@ class GroceryList:
 
         # TODO - implement this method!
 
-        return
+        self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
 
