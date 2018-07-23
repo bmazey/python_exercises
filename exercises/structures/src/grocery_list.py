@@ -16,6 +16,7 @@ class GroceryList:
 
     def populate_list(self):
 
+        # adding milk, eggs, seltzer, honey and seltzer to the items list
         self.add_item('milk')
         self.add_item('eggs')
         self.add_item('seltzer')
