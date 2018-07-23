@@ -10,3 +10,4 @@ class FizzBuzz(object):
         # test method! test
         string = ''
         return string
+object???
