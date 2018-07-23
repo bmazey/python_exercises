@@ -19,3 +19,6 @@ class Mammal(Animal):
     # @override
     def eat(self):
         return 'munch ... munch ...'
+
+    def call(self):
+        return ' '

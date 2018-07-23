@@ -16,6 +16,10 @@ def main():
     brownie = Brownie('fudge', 5)
     print(brownie.get_brownie_size())
 
+    for dessert in (sweets, savory, macaroon, brownie):
+        print(dessert.name)
+
+
 if __name__ == '__main__':
     main()
 

@@ -7,4 +7,16 @@ class Animal:
 
     # all Animals eat
     def eat(self):
-        return "nom ... nom ..."
+        return " "
+
+    def size(self):
+        return ''
+
+    def leg(self):
+        return ''
+
+    def color(self):
+        return ''
+
+
+
