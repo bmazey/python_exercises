@@ -3,6 +3,7 @@ python:
   - "3.6"
 script:
   - pytest challenges/market/test
+  - pytest exercises/structures/test
 branches:
   only:
     - master
