@@ -35,3 +35,5 @@ class EthPricer:
         price = requests.get('https://api.kraken.com/0/public/Ticker', params={'pair': 'ETHCAD'})
         price = json.loads(price.text)['result']['XETHZCAD']['o']
         return price
+
+
