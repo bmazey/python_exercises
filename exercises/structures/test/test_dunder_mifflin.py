@@ -36,7 +36,11 @@ def generate_pam_mail():
 
     # TODO - implement this method with a valid tuple!
 
-    mail = ()
+    mail = (
+        Email('pam.beesly@dundermifflin.com', 'jim.halpert@dundermifflin.com', 'dinner tonight?', 1),
+        Email('jim.halpert@dundermifflin.com', 'pam.beesly@dundermifflin.com', 'sure why not', 1),
+        Email('pam.beesly@dundermifflin.com', 'jim.halpert@dundermifflin.com', 'it\'s a date!', 0)
+    )
 
     return mail
 
