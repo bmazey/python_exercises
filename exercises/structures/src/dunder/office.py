@@ -4,3 +4,5 @@ class Office(object):
         self.boss = boss
 
     # TODO - finish class using dunder methods!
+    def __len__(self):
+        return len(Office)

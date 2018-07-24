@@ -36,6 +36,7 @@ def generate_pam_mail():
 
     # TODO - implement this method with a valid tuple!
 
+
     mail = ()
 
     return mail

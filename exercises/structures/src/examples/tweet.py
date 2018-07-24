@@ -36,7 +36,7 @@ def main():
     bob = TwitterUser(Handle('bbelderbos', shared_handle='pybites'), generate_tweets())
 
     # implementing len we can call it on the object like this:
-    # print(len(bob))
+    print(len(bob))
 
     # implementing getitem we can get tweets by index
     # print(bob[0])
