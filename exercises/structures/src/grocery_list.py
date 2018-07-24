@@ -1,9 +1,21 @@
 class GroceryList:
     def __init__(self):
-        self.items = []
+        self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
 
-    def add_item(self, item):
-        self.items.append(item)
+    def add_item(self, milk):
+        self.items.append(milk)
+
+    def add_item(self, eggs):
+        self.items.append(eggs)
+
+    def add_item(self, seltzer):
+        self.items.append(seltzer)
+
+    def add_item(self, honey):
+        self.items.append(honey)
+
+    def add_item(self, seltzer):
+        self.items.append(seltzer)
 
     def first(self):
         return self.items[0]
@@ -19,4 +31,3 @@ class GroceryList:
         # TODO - implement this method!
 
         return
-
