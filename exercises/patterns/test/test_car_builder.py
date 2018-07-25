@@ -31,3 +31,4 @@ def test_construct_tesla():
     assert car.doors == 4
     assert car.fuel.casefold() == 'electricity'.casefold()
     assert car.color.casefold() == 'black'.casefold()
+
