@@ -10,3 +10,4 @@ class TreasureMap:
                     'coast': 'ocean reef',
                     'volcano': 'hot lava',
                     'x': 'marks the spot'}
+
