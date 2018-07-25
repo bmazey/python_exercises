@@ -38,6 +38,7 @@ def create_factory_maze_type_a(factory):
     maze = factory.make_maze()
 
     # TODO - implement this method!
+    # test
 
     return maze
 
