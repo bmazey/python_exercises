@@ -1,5 +1,6 @@
 import requests
 import json
+from forex_python.bitcoin import BtcConverter
 
 
 class BtcPricer:
