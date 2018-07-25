@@ -39,7 +39,7 @@ def test_usd_price():
     assert abs(float(BtcPricer.get_btc_usd_price()) - float(kraken.query_public('Ticker', bpair)['result']['XXBTZUSD']['o'])) <= 1
     assert abs(float(EthPricer.get_eth_usd_price()) - float(kraken.query_public('Ticker', epair)['result']['XETHZUSD']['o'])) <= 1
 
-
+#test
 def test_cad_price():
     # get the cad price
     # you are not allowed to use krakenex in your solution
