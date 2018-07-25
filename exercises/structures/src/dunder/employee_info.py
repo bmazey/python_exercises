@@ -3,3 +3,5 @@ class EmployeeInfo(object):
         self.name = name
         self.address = address
 
+    def __getitem__(self, item):
+        return self.name[item]

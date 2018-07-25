@@ -21,5 +21,4 @@ class EnchantedDoor(Door):
         if not with_spell:
             print("You need to cast a spell first ...")
         else:
-            print(with_spell)
             super().unlock()
