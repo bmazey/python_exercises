@@ -20,4 +20,3 @@ class CarBuilder(Builder):
 
     def get_result(self):
         return self.car
-
