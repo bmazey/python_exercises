@@ -28,7 +28,7 @@ def create_maze(factory):
     room1.set_side(Direction.WEST, factory.make_wall())
 
     room2.set_side(Direction.NORTH, factory.make_wall())
-    room2.set_side(Direction.EAST, thedoor)
+    room2.set_side(Direction.EAST, factory.make_wall())
     room2.set_side(Direction.SOUTH, factory.make_wall())
     room2.set_side(Direction.WEST, factory.make_wall())
 
@@ -53,7 +53,7 @@ def create_enchanted_maze():
 
     room2.set_side(Direction.NORTH, Wall())
     room2.set_side(Direction.EAST, Wall())
-    room2.set_side(Direction.SOUTH, themagicdoor)
+    room2.set_side(Direction.SOUTH, Wall())
     room2.set_side(Direction.WEST, Wall())
 
     return maze
@@ -77,7 +77,7 @@ def create_factory_maze_type_a(factory):
     room1.set_side(Direction.WEST, factory.make_wall())
 
     room2.set_side(Direction.NORTH, factory.make_wall())
-    room2.set_side(Direction.EAST, thedoor)
+    room2.set_side(Direction.EAST, factory.make_wall())
     room2.set_side(Direction.SOUTH, factory.make_wall())
     room2.set_side(Direction.WEST, factory.make_wall())
 
@@ -102,7 +102,7 @@ def create_factory_maze_type_b(factory):
 
     room2.set_side(Direction.NORTH, factory.make_wall())
     room2.set_side(Direction.EAST, factory.make_wall())
-    room2.set_side(Direction.SOUTH, thedoor)
+    room2.set_side(Direction.SOUTH, factory.make_wall())
     room2.set_side(Direction.WEST, factory.make_wall())
 
     return maze
