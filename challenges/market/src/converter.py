@@ -1,10 +1,13 @@
 from challenges.market.src.btcpricer import BtcPricer
 from challenges.market.src.ethpricer import EthPricer
+import requests
+import json
 
 
 def main():
-    # this is for experiments only! test does not look here ...
-    return
+    url = 'https://api.kraken.com/0/public/Ticker?pair=XBTUSD'
+    r = requests.get(url)
+    print(r.json()['result']['XXBTZUSD']['o'])
 
 
 if __name__ == '__main__':
