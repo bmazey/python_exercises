@@ -79,7 +79,7 @@ def create_factory_maze_type_a(factory):
     room2.set_side(Direction.NORTH, factory.make_wall())
     room2.set_side(Direction.EAST,  thedoor)
     room2.set_side(Direction.SOUTH, factory.make_wall())
-    room2.set_side(Direction.WEST, factory.make_wall)
+    room2.set_side(Direction.WEST, factory.make_wall())
 
     return maze
 
