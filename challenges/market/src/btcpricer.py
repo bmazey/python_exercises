@@ -1,7 +1,7 @@
 import requests
 import json
 
-
+#hi
 class BtcPricer:
     def __init__(self):
         # you will need to research the 'requests' module
