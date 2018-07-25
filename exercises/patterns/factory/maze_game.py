@@ -110,7 +110,6 @@ def create_factory_maze_type_b(factory):
 
 if __name__ == "__main__":
 
-    # tinker here?
 
     pass
 
