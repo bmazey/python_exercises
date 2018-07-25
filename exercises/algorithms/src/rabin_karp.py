@@ -10,7 +10,50 @@ d = 256
 # q    -> A prime number
 
 def search(pat, txt, q):
-    # TODO - implement this method!
+    M = len(pat)
+    N = len(txt)
 
-    matches = list()
-    return matches
+    p = 0  # hash value for pattern
+    t = 0  # hash value for txt
+    h = 1
+
+    result = []
+
+    # The value of h would be "pow(d, M-1)%q"
+    for i in range(M - 1):
+        h = (h * d) % q
+
+    # Calculate the hash value of pattern and first window
+    # of text
+    for i in range(M):
+        p = (d * p + ord(pat[i])) % q
+        t = (d * t + ord(txt[i])) % q
+
+    # Slide the pattern over text one by one
+    for i in range(N - M + 1):
+        # Check the hash values of current window of text and
+        # pattern if the hash values match then only check
+        # for characters on by one
+        if p == t:
+            # Check for characters one by one
+            for j in range(M):
+                if txt[i + j] != pat[j]:
+                    break
+
+            j += 1
+            # if p == t and pat[0...M-1] = txt[i, i+1, ...i+M-1]
+            if j == M:
+                result = result + [i]
+
+        # Calculate hash value for next window of text: Remove
+        # leading digit, add trailing digit
+        if i < N - M:
+            t = (d * (t - ord(txt[i]) * h) + ord(txt[i + M])) % q
+
+            # We might get negative values of t, converting it to
+            # positive
+            if t < 0:
+                t = t + q
+
+    return result
+
