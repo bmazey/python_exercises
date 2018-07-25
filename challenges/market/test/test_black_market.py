@@ -26,7 +26,7 @@ def test_price_response_format():
     # make sure response is valid json
     assert json.loads((BtcPricer.get_btc_usd_price_response()))
     assert json.loads((EthPricer.get_eth_usd_price_response()))
-
+#tests
 
 def test_usd_price():
     # get the usd price
