@@ -36,6 +36,13 @@ def create_factory_maze_type_a(factory):
     """Series of operations which create our Maze."""
 
     maze = factory.make_maze()
+    room1 = Room(1)
+    room2 = Room(2)
+    the_door = Door(room1, room2)
+    maze.add_room(room1)
+    maze.add_room(room2)
+
+    room1.set_side(Direction.EAST, the_door)
 
     # TODO - implement this method!
 
@@ -44,8 +51,13 @@ def create_factory_maze_type_a(factory):
 
 def create_factory_maze_type_b(factory):
     """Series of operations which create our Maze."""
-
     maze = factory.make_maze()
+    room1 = Room(1)
+    room2 = Room(2)
+    the_door = Door(room1, room2)
+    maze.add_room(room1)
+    maze.add_room(room2)
+    room1.set_side(Direction.SOUTH, the_door)
 
     # TODO - implement this method!
 

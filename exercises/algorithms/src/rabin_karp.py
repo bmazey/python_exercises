@@ -10,7 +10,6 @@ d = 256
 # q    -> A prime number
 
 def search(pat, txt, q):
-    found_pattern = [[]]
     M = len(pat)
     N = len(txt)
     i = 0
@@ -54,6 +53,7 @@ def search(pat, txt, q):
             if t < 0:
                 t = t + q
     return []
+
 
 if __name__=='__main__':
     txt = 'Geeks for Geeks'
