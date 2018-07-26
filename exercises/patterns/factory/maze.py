@@ -16,3 +16,4 @@ class Maze(object):
         """Get Room by its number"""
         return self.rooms[room_number]
 
+
