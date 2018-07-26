@@ -5,6 +5,7 @@ class CarBuilderDirector(object):
 
     @staticmethod
     def construct_suv():
+        builder = CarBuilder()
         # TODO - implement this method!
         builder = CarBuilder()
         builder.set_wheels(4)
