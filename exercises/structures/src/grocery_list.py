@@ -17,6 +17,14 @@ class GroceryList:
     def populate_list(self):
 
         # TODO - implement this method!
+        self.items.append('milk')
+        self.items.append('eggs')
+        self.items.append('seltzer')
+        self.items.append('honey')
+        self.items.append('seltzer')
+        self.items[2] = self.items[-1]
 
-        return
+        len(self.items)
+
+        return self
 

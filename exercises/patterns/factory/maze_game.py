@@ -17,7 +17,10 @@ def create_maze():
     """Series of operations which create our Maze."""
     maze = Maze()
 
+
+
     # TODO - implement this method!
+
 
     return maze
 
@@ -25,6 +28,7 @@ def create_maze():
 def create_enchanted_maze():
     """Series of operations which create our Maze."""
     maze = Maze()
+
 
     # TODO - implement this method!
 
@@ -37,6 +41,15 @@ def create_factory_maze_type_a(factory):
 
     maze = factory.make_maze()
 
+    room1 = Room(1)
+    room2 = Room(2)
+    maze.add_room(room1)
+    maze.add_room(room2)
+    room1.set_side(Direction.NORTH, Wall())
+    room1.set_side(Direction.EAST, Door(room1, room2))
+    room1.set_side(Direction.SOUTH, Wall())
+    room1.set_side(Direction.WEST, Wall())
+
     # TODO - implement this method!
 
     return maze
@@ -47,6 +60,16 @@ def create_factory_maze_type_b(factory):
 
     maze = factory.make_maze()
 
+    room1 = Room(1)
+    room2 = Room(2)
+    maze.add_room(room1)
+    maze.add_room(room2)
+    S = EnchantedDoor(room1, room2)
+
+    room1.set_side(Direction.NORTH, Wall())
+    room1.set_side(Direction.EAST, Wall())
+    room1.set_side(Direction.SOUTH, S)
+    room1.set_side(Direction.WEST, Wall())
     # TODO - implement this method!
 
     return maze

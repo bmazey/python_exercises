@@ -4,3 +4,10 @@ class EmployeeInfo(object):
         self.address = address
 
 # TODO - add dunder methods?
+    def __getitem__(self, position):
+        return self.address[position]
+
+    # def __add__(self, other):
+    #      self.list = (self, other)
+    #      return self.list
+
