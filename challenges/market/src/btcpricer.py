@@ -13,6 +13,7 @@ class BtcPricer:
     @staticmethod
     def get_btc_usd_price_status():
         # TODO - implement this method!
+
         return
 
     @staticmethod
