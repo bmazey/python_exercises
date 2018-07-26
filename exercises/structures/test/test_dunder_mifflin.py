@@ -18,6 +18,7 @@ def test_office():
 
     office = Office(employees, michael)
     assert len(office) == 2
+    # In order to generate employee's name according to their position, we need to create a 'getitem' dunder method.
     assert office[1].employee_info.name == dwight.employee_info.name
 
     # assert that jim's first mail is sent to pam
@@ -25,12 +26,13 @@ def test_office():
 
     office = office + pam
     assert len(office) == 3
+    # within the 'getitem' method, we should create a tuple (other, ) in order to get the len=3 instead of 2.
 
-    # implement generate_pam_mail() below with a valid tuple!
     assert office[2].sender == 'pam.beesly@dundermifflin.com'
+    # we have position 2 here bc pam is the third person in Office before their boss Michael
 
     assert office.boss.employee_info.name == michael.employee_info.name
-
+    #
 
 def generate_pam_mail():
 

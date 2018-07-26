@@ -11,3 +11,11 @@ class Dog:
     # all dogs bark
     def bark(self):
         return "bark! ... bark! ... : " + self.name
+
+    @staticmethod
+    def walk():
+        return "jump ... jump... : "
+
+    def rename(self, name):
+        self.name = name
+
