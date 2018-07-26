@@ -37,7 +37,12 @@ def create_factory_maze_type_a(factory):
 
     maze = factory.make_maze()
 
-    # TODO - implement this method!
+    room1 = Room(1)
+    room2 = Room(2)
+    maze.add_room(room1)
+    maze.add_room(room2)
+    door = Door(room1, room2)
+    room1.set_side('EAST', door)
 
     return maze
 
