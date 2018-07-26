@@ -5,6 +5,6 @@ class Employee(object):
         self.recipient = mail
         self.sender = 'pam.beesly@dundermifflin.com'
 
-    # TODO - finish this class using dunder methods!
+    # TODO - finish this class using dunder methods! test
     def __getitem__(self, item):
         return self.recipient[item]
