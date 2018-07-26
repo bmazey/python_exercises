@@ -1,10 +1,11 @@
-import exercises.patterns.builder.car_builder
+from exercises.patterns.builder.car_builder import CarBuilder
 
 
 class CarBuilderDirector(object):
 
     @staticmethod
     def construct_suv():
+        builder = CarBuilder()
         # TODO - implement this method!
         return
 
