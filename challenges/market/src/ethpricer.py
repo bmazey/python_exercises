@@ -13,27 +13,19 @@ class EthPricer:
     @staticmethod
     def get_eth_usd_price_status():
         # TODO - implement this method!
-        url = 'https://api.kraken.com/0/public/Ticker'
-        r = requests.get(url)
-        return r
+        return
 
     @staticmethod
     def get_eth_usd_price_response():
         # TODO - implement this method!
-        url = 'https://api.kraken.com/0/public/Ticker'
-        r = requests.get(url)
-        return json.dumps(r.json())
+        return
 
     @staticmethod
     def get_eth_usd_price():
         # TODO - implement this method!
-        url = 'https://api.kraken.com/0/public/Ticker?pair=ETHUSD'
-        r = requests.get(url)
-        return r.json()['result']['XETHZUSD']['o']
+        return
 
     @staticmethod
     def get_eth_cad_price():
         # TODO - implement this method!
-        url = 'https://api.kraken.com/0/public/Ticker?pair=ETHCAD'
-        r = requests.get(url)
-        return r.json()['result']['XETHZCAD']['o']
+        return
