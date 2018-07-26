@@ -31,4 +31,3 @@ def test_lindsay_is_daughter():
 
 def test_george_oscar_is_son():
     assert ft.george_oscar.parent.name.casefold() == 'Lucille'.casefold()
-
