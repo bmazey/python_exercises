@@ -21,5 +21,5 @@ class GroceryList:
         self.add_item("honey")
         self.add_item("seltzer")
 
-        self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
+        return
 
