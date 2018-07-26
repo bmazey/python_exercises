@@ -3,4 +3,5 @@ class EmployeeInfo(object):
         self.name = name
         self.address = address
 
-# TODO - add dunder methods?
+    def __getitem__(self, item):
+        return self.name[item]
