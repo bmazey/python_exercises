@@ -3,10 +3,12 @@ class FizzBuzz(object):
 
     # test
     @staticmethod
+
     def fizzbuzz(i):
-        # TODO - implement this method!
-
-
-        # test method! test
         string = ''
+        if i % 3 == 0:
+            string += 'fizz'
+
+        if i % 5 == 0:
+            string += 'buzz'
         return string
