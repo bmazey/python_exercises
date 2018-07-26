@@ -14,6 +14,9 @@ def test_office():
     michael = Employee(EmployeeInfo('Michael Scott', 'michael.scott@dundermifflin.com'), generate_michael_mail())
     pam = Employee(EmployeeInfo('Pamela Beesly', 'pam.beesly@dundermifflin.com'), generate_pam_mail())
 
+
+    ##sample sample sample
+
     employees = (jim, dwight)
 
     office = Office(employees, michael)
