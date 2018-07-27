@@ -1,6 +1,5 @@
 import anytree
-
-
+from anytree import Node, RenderTree
 class FamilyTree:
 
     def __init__(self):
@@ -11,9 +10,10 @@ class FamilyTree:
         self.buster = anytree.Node("")
         self.george_michael = anytree.Node("")
         self.maeby = anytree.Node("")
+# this names the parent branch of each branches
+# lucille is the root branch
 
     def populate_family_tree(self):
-
         # ex: child = Node('Child Name', parent = parent_node)
         self.lucille = anytree.Node("Lucille", parent=self.lucille)
         self.george_oscar = anytree.Node("George Oscar", parent=self.lucille)
@@ -24,5 +24,6 @@ class FamilyTree:
         self.maeby = anytree.Node("Maeby", parent=self.lindsay)
 
         # TODO - implement this method!
-
-        return
+  # this tells the test to read the number of children branches
+    def __len__(self):
+        return len(self.lucille.children)

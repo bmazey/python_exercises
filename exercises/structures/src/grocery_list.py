@@ -17,5 +17,5 @@ class GroceryList:
     def populate_list(self):
         self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
 
-        return
+        return self.items
 
