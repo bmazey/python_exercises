@@ -15,9 +15,4 @@ class FamilyTree:
 
     def populate_family_tree(self):
 
-# this tells the test to read the number of children branches
-    def __len__(self):
-        return len(self.lucille.children)
-
-        # ex: child = Node('Child Name', parent = parent_node)
         return
