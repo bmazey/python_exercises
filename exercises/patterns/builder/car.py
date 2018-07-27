@@ -9,4 +9,3 @@ class Car(object):
     def __str__(self):
         return "This is a {} car with {} wheels and {} doors. " \
                "It runs on {}.".format(self.color, self.wheels, self.doors, self.fuel)
-
