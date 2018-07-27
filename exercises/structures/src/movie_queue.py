@@ -5,12 +5,12 @@ class MovieQueue:
 
 
    def populate_movie_queue(self):
-       """populates a new MovieQueue"""
+    """populates a new MovieQueue"""
 
-       self.queue.append('Donatello')
-       self.queue.append('Raphael')
-       self.queue.append('Michelangelo')
-       self.queue.append('Leonardo')
+    self.queue.append('Donatello')
+    self.queue.append('Raphael')
+    self.queue.append('Michelangelo')
+    self.queue.append('Leonardo')
 
     def populate_movie_queue(self):
         """populates a new MovieQueue"""
