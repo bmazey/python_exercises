@@ -8,30 +8,30 @@ class Hieroglyph(object):
 
     @staticmethod
     def worship_sacred_cats(s):
-        # TODO - implement this method!
-        return
+        return re.match(r'(.*)cat(.*)', s)
 
     @staticmethod
     def alphanumeric_glyph(s):
-        # TODO - implement this method!
-        return
+        return re.match(r'[a-z]{4}[0-9]{5,7}', s)
 
     @staticmethod
     def avoid_nile_crocodile(s):
-        # TODO - implement this method!
-        return
+        return not re.match(r'(.*)crocodile(.*)', s)
 
     @staticmethod
     def find_gold_scarab(s):
-        # TODO - implement this method!
-        return
+        matches = re.match(r'gold(?= scarab)', s)
+        if matches:
+            return matches.group()
+        else:
+            return False
 
     @staticmethod
     def raid_tuts_tomb(s):
-        # TODO - implement this method!
-        return
+        return not re.match(r'(.*)tut(.*)', s, re.I)
+        # return re.match(r'tomb', s) or re.match(r'(tomb )', s) or re.match(r'tomb( tomb)*', s)
 
     @staticmethod
     def steal_crystal_skull(s):
-        # TODO - implement this method!
-        return
+        s = s.replace('skull', 'idol')
+        return s

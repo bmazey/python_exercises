@@ -1,6 +1,5 @@
 import requests
 import json
-from forex_python.bitcoin import BtcConverter
 
 
 class BtcPricer:
@@ -13,20 +12,20 @@ class BtcPricer:
 
     @staticmethod
     def get_btc_usd_price_status():
-        # TODO - implement this method!
-        return
+        return requests.get('https://api.kraken.com/0/public/Ticker')
 
     @staticmethod
     def get_btc_usd_price_response():
-        # TODO - implement this method!
-        return
+        return requests.get('https://api.kraken.com/0/public/Ticker').text
 
     @staticmethod
     def get_btc_usd_price():
-        # TODO - implement this method!
-        return
+        data = {'pair': 'XBTUSD'}
+        r = requests.get('https://api.kraken.com/0/public/Ticker', params=data)
+        return json.loads(r.text)['result']['XXBTZUSD']['o']
 
     @staticmethod
     def get_btc_cad_price():
-        # TODO - implement this method!
-        return
+        data = {'pair': 'XBTCAD'}
+        r = requests.get('https://api.kraken.com/0/public/Ticker', params=data)
+        return json.loads(r.text)['result']['XXBTZCAD']['o']
