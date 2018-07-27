@@ -6,32 +6,39 @@ class Hieroglyph(object):
     def __init__(self):
         return
 
+    # any character, then cat, then any character
     @staticmethod
     def worship_sacred_cats(s):
-        # TODO - implement this method!
-        return
+        cat = re.match(r'.*cat+.*', s)
+        return cat
 
+    # any letter 4 times, then any number 5-7 times
     @staticmethod
     def alphanumeric_glyph(s):
-        # TODO - implement this method!
-        return
+        glyph = re.match(r'[a-z]{4}[0-9]{5,7}', s)
+        return glyph
 
+    # anything without crocodile
     @staticmethod
     def avoid_nile_crocodile(s):
-        # TODO - implement this method!
-        return
+        return not re.search(r'crocodile', s)
+        # croc = re.match(r'[^c]', s)
+        # return croc
 
+    # anything with 'gold scarab' return 'gold', else return false
     @staticmethod
     def find_gold_scarab(s):
-        # TODO - implement this method!
-        return
+        if re.match(r'gold+\s+scarab+', s):
+            return 'gold'
+        else:
+            return False
 
+    # anything with tut (lower or upper case) is false
     @staticmethod
     def raid_tuts_tomb(s):
-        # TODO - implement this method!
-        return
+        return not re.search(r'tut', s, re.I)
 
+    # substitute skull for idol
     @staticmethod
     def steal_crystal_skull(s):
-        # TODO - implement this method!
-        return
+        return re.sub('skull', 'idol', s)
