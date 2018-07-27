@@ -15,3 +15,5 @@ class Logger(metaclass=Singleton):
 
 class SimpleSingleton(Singleton):
     pass
+
+
