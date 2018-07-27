@@ -14,17 +14,16 @@ class FamilyTree:
 # lucille is the root branch
 
     def populate_family_tree(self):
-        self.lucille = Node("Lucille")
-        self.george_oscar = Node("George Oscar", parent=self.lucille)
-        self.michael = Node("Michael", parent=self.lucille)
-        self.lindsay = Node("Lindsay", parent=self.lucille)
-        self.buster = Node("Buster", parent=self.lucille)
-        self.george_michael = Node("George Michael", parent=self.michael)
-        self.maeby = Node("Maeby", parent=self.lindsay)
+        # ex: child = Node('Child Name', parent = parent_node)
+        self.lucille = anytree.Node("Lucille", parent=self.lucille)
+        self.george_oscar = anytree.Node("George Oscar", parent=self.lucille)
+        self.michael = anytree.Node("Michael", parent=self.lucille)
+        self.lindsay = anytree.Node("Lindsay", parent=self.lucille)
+        self.buster = anytree.Node("Buster", parent=self.lucille)
+        self.george_michael = anytree.Node("George Michael", parent=self.michael)
+        self.maeby = anytree.Node("Maeby", parent=self.lindsay)
 
-# this tells the test to read the number of children branches
+        # TODO - implement this method!
+  # this tells the test to read the number of children branches
     def __len__(self):
         return len(self.lucille.children)
-
-        # ex: child = Node('Child Name', parent = parent_node)
-        return

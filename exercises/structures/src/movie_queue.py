@@ -4,9 +4,7 @@ class MovieQueue:
         self.queue = list()
 
     def populate_movie_queue(self):
-        """populates a new MovieQueue"""
-        # add names of characters
-        self.queue.append("Donatello")
-        self.queue.append("Raphael")
-        self.queue.append("Michelangelo")
-        self.queue.append("Leonardo")
+        self.queue.append('Donatello')
+        self.queue.append('Raphael')
+        self.queue.append('Michelangelo')
+        self.queue.append('Leonardo')

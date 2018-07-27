@@ -3,6 +3,7 @@ import json
 
 
 class BtcPricer:
+
     def __init__(self):
         # you will need to research the 'requests' module
         # you will need to read documentation: https://www.kraken.com/help/api
@@ -12,20 +13,20 @@ class BtcPricer:
 
     @staticmethod
     def get_btc_usd_price_status():
-        # TODO - implement this method!
-        return
+        status = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        return status
 
     @staticmethod
     def get_btc_usd_price_response():
-        # TODO - implement this method!
-        return
+        response = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        return json.dumps(response.json())
 
     @staticmethod
     def get_btc_usd_price():
-        # TODO - implement this method!
-        return
+        xbtusd = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        return xbtusd.json()['result']['XXBTZUSD']['o']
 
     @staticmethod
     def get_btc_cad_price():
-        # TODO - implement this method!
-        return
+        xbtcad = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTCAD')
+        return xbtcad.json()['result']['XXBTZCAD']['o']

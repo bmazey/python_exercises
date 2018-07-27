@@ -15,11 +15,7 @@ class GroceryList:
         return len(self.items)
 
     def populate_list(self):
-        self.add_item("milk")
-        self.add_item("eggs")
-        self.add_item("seltzer")
-        self.add_item("honey")
-        self.add_item("seltzer")
+        self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
 
-        return
+        return self.items
 
