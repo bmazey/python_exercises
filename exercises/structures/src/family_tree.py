@@ -14,8 +14,4 @@ class FamilyTree:
 
     def populate_family_tree(self):
 
-        # ex: child = Node('Child Name', parent = parent_node)
-
-        # TODO - implement this method!
-
         return
