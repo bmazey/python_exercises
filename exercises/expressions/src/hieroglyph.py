@@ -21,7 +21,7 @@ class Hieroglyph(object):
     @staticmethod
     def avoid_nile_crocodile(s):
         # TODO - implement this method!
-        a = re.match(r'(nile)*(nile)*', s)
+        a = re.match(r'(nile)*', s)
         if re.search(r'crocodile', s):
             return False
         else:
