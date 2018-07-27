@@ -4,9 +4,9 @@ class FizzBuzz(object):
     # test
     @staticmethod
     def fizzbuzz(i):
-        # TODO - implement this method!
-
-
-        # test method! test
-        string = ''
-        return string
+        if i%3 == 0 and i%5 == 0: # using modulus to check divisor
+            return 'fizzbuzz'
+        elif i%3 == 0:
+            return 'fizz'
+        elif i%5 == 0:
+            return 'buzz'

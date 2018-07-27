@@ -19,7 +19,6 @@ def test_office():
     office = Office(employees, michael)
     assert len(office) == 2
     assert office[1].employee_info.name == dwight.employee_info.name
-
     # assert that jim's first mail is sent to pam
     assert office[0][0].recipient == pam.employee_info.address
 
@@ -34,9 +33,11 @@ def test_office():
 
 def generate_pam_mail():
 
-    # TODO - implement this method with a valid tuple!
-
-    mail = ()
+    mail = (
+        Email('pam.beesly@dundermifflin.com', 'pam.beesly@dundermifflin.com', 'sure why not', 1),
+        Email('jim.halpert@dundermifflin.com', 'jim.halpert@dundermifflin.com', 'it\'s a date!', 1),
+        Email('pam.beesly@dundermifflin.com', 'pam.beesly@dundermifflin.com', 'cool', 0)
+    )
 
     return mail
 
