@@ -16,3 +16,8 @@ class FizzBuzz(object):
         # if it isn't a multiple of 15, 5, or 3 it evaluates the original number
         else:
             return i
+
+
+        # test method!
+        string = ''
+        return string
