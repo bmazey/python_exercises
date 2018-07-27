@@ -13,19 +13,22 @@ class BtcPricer:
     @staticmethod
     def get_btc_usd_price_status():
         # TODO - implement this method!
-        return
+        btc = requests.get('https://api.kraken.com/0/public/Ticker')
+        return btc
 
     @staticmethod
     def get_btc_usd_price_response():
         # TODO - implement this method!
-        return
+        return requests.get('https://api.kraken.com/0/public/Ticker').text
 
     @staticmethod
     def get_btc_usd_price():
         # TODO - implement this method!
-        return
+        btc_usd = requests.get('https://api.kraken.com/0/public/Ticker', params={'pair': 'XBTUSD'})
+        return json.loads(btc_usd.text)['result']['XXBTZUSD']['o']
 
     @staticmethod
     def get_btc_cad_price():
         # TODO - implement this method!
-        return
+        btc_cad = requests.get('https://api.kraken.com/0/public/Ticker', params={'pair': 'XBTCAD'})
+        return json.loads(btc_cad.text)['result']['XXBTZCAD']['o']
