@@ -1,7 +1,7 @@
 class TreasureMap:
 
    def __init__(self):
-       self.map = {}
+    self.map = {}
 
     def __init__(self):
         self.map = {}
