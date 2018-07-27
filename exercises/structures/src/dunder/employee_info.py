@@ -3,4 +3,6 @@ class EmployeeInfo(object):
         self.name = name
         self.address = address
 
-# TODO - add dunder methods?
+    def __str__(self):
+        address = ' (email address: {})'.format(self.address)
+        return '{}{}'.format(self.name, address)
