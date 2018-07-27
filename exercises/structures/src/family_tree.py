@@ -16,6 +16,13 @@ class FamilyTree:
 
         # ex: child = Node('Child Name', parent = parent_node)
 
-        # TODO - implement this method!
+        # TODO - implement this method!self.george_oscar = anytree.Node("George_oscar,", parent=lucille)
+        self.lucille = anytree.Node("Lucille")
+        self.george_oscar = anytree.Node("george oscar", parent=self.lucille)
+        self.michael = anytree.Node("michael", parent=self.lucille)
+        self.lindsay = anytree.Node("lindsay", parent=self.lucille)
+        self.buster = anytree.Node("buster", parent=self.lucille)
+        self.george_michael = anytree.Node("george michael", parent=self.michael)
+        self.maeby = anytree.Node("maeby", parent=self.lindsay)
 
         return

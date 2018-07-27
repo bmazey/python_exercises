@@ -9,4 +9,14 @@ class PasswordGenerator(object):
         # TODO - implement this method!
 
         password = ''
-        return password
+        alpha = 'abcdefghijklmnopqrstuvwxyz'
+        for x in range(5):
+            password = password + random.choice(alpha)
+
+        for x in range(4):
+            password = password + str(random.randint(0, 10))
+
+        symbol = '!@#$%^&*'
+        password = password + random.choice(symbol)
+
+         return password

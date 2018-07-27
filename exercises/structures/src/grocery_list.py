@@ -1,6 +1,6 @@
 class GroceryList:
     def __init__(self):
-        self.items = []
+        self.items = ['milk', 'eggs', 'seltzer', 'honey', 'seltzer']
 
     def add_item(self, item):
         self.items.append(item)
@@ -15,6 +15,7 @@ class GroceryList:
         return len(self.items)
 
     def populate_list(self):
+
 
         # TODO - implement this method!
 
