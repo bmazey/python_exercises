@@ -22,6 +22,4 @@ class GroceryList:
         self.items.append('seltzer')
 
         # TODO - implement this method!
-
         return
-
