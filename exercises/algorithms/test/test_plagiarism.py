@@ -13,6 +13,7 @@ def test_is_plagiarism():
           "superlative degree of comparison only."
 
     plagiarism = exercises.algorithms.src.rabin_karp.search(pat, txt, 101)
+    print(plagiarism)
     assert len(plagiarism) == 1
     assert plagiarism[0] == 0
 
