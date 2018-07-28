@@ -24,7 +24,7 @@ class Door(MapSite):
         """Returns True if the Door is opened; False otherwise."""
         return self.open
 
-    def unlock(self):
+    def unlock(self,**kwargs):
         self.open = True
         print("The door is now unlocked!")
 
