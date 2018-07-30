@@ -1,5 +1,6 @@
 import requests
 import json
+from pprint import pprint
 
 
 class BtcPricer:
@@ -12,20 +13,25 @@ class BtcPricer:
 
     @staticmethod
     def get_btc_usd_price_status():
-        # TODO - implement this method!
-        return
+        response = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        return response
+
+
 
     @staticmethod
     def get_btc_usd_price_response():
-        # TODO - implement this method!
-        return
+        response = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        # pprint(response)
+        return response.text
 
     @staticmethod
     def get_btc_usd_price():
-        # TODO - implement this method!
-        return
+        response = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTUSD')
+        return response.json().get('result').get('XXBTZUSD').get('o')
+
 
     @staticmethod
     def get_btc_cad_price():
-        # TODO - implement this method!
-        return
+        response = requests.get('https://api.kraken.com/0/public/Ticker?pair=XBTCAD')
+        return response.json().get('result').get('XXBTZCAD').get('o')
+
