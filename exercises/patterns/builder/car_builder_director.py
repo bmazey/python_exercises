@@ -2,7 +2,6 @@ from exercises.patterns.builder.car_builder import CarBuilder
 
 
 class CarBuilderDirector(object):
-
     @staticmethod
     def construct_suv():
         builder = CarBuilder()
@@ -32,6 +31,7 @@ class CarBuilderDirector(object):
         builder.set_color('black')
         builder.set_fuel('electricity')
         return builder.get_result()
+
 
 
 # Let's try it out below ...
