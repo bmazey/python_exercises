@@ -5,3 +5,4 @@ requests
 krakenex
 sqlalchemy
 flask_restplus
+flask_sqlalchemy
