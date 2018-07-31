@@ -4,3 +4,4 @@ anytree
 requests
 krakenex
 sqlalchemy
+flask_restplus
