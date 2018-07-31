@@ -8,4 +8,3 @@ sys.path.append(os.getcwd())
 
 def test_config():
     print("configuring tests ...")
-

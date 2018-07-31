@@ -11,7 +11,7 @@ class Bulldog(Dog):
 
     # bulldogs growl
     def bark(self):
-        return "growl ... growl ... : " + str(self.name)
+        return "growl ... growl ... : " + self.name
 
     def size(self):
         return self.size
