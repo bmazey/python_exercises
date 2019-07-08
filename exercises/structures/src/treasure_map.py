@@ -4,9 +4,9 @@ class TreasureMap:
 
 # adds values to keys from the dictionary called map
     def populate_map(self):
-        self.map['beach'] = "sandy shore"
-        self.map["coast"] = "ocean reef"
-        self.map["volcano"] = "hot lava"
-        self.map["x"] = "marks the spot"
+        self.map['beach'] = 'sandy shore'
+        self.map['coast'] = 'ocean reef'
+        self.map['volcano'] = 'hot lava'
+        self.map['x'] = 'marks the spot'
         return
 

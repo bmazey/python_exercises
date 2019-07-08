@@ -6,22 +6,11 @@ class MovieQueue:
     def populate_movie_queue(self):
         """populates a new MovieQueue"""
         # TODO - implement this method!
-    def enqueue(self, donatello):
-        self.queue.append(donatello)
 
-    def enqueue(self, raphael):
-        self.queue.append(raphael)
-
-    def enqueue(self, michelangelo):
-        self.queue.append(michelangelo)
-
-    def enqueue(self, leonardo):
-        self.queue.append(leonardo)
-
-    def populate_queue(self):
-
-        return
-
+        self.queue.append('Donatello')
+        self.queue.append('Raphael')
+        self.queue.append('Michelangelo')
+        self.queue.append('Leonardo')
 
 
 
